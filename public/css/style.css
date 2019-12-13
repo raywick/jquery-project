@@ -1,0 +1,226 @@
+/*
+----------------------------------------
+             	LINKS
+----------------------------------------
+*/
+@import url('https://fonts.googleapis.com/css?family=Solway:400,500,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700,900&display=swap');
+
+/*
+----------------------------------------
+             	MAIN
+----------------------------------------
+*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html, body {
+	--thumb-color: #A6A6A6;
+	--thumb-border: #FFFFFF;
+	
+	height: 100%;
+	width: 100%;
+	scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+	width: 7px;
+	background-color: rgba(66,66,66,0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+	background: var(--thumb-color);
+	border-radius: 5px;
+	border-right: 2px;
+	border-color: #424242;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	--thumb-color: #424242;
+}
+
+span {
+	color: ;
+}
+
+/*
+----------------------------------------
+             	HEADER
+----------------------------------------
+*/
+
+.home {
+	--text: #FFFFFF !important;
+	--text-inverse: #000000 !important;
+	--background: transparent !important;
+
+	background-color: var(--background);
+	background: url(./slider.css);/*url(../img/header/img-1.jpg) no-repeat center;*/
+	background-size: cover;
+	color: var(--text);
+	height: 100%;
+	width: 100%;
+	font-family: 'Solway', serif;
+}
+
+#navbar {
+	background-color: var(--background);
+	color: var(--text);
+	font-weight: 500 !important;
+}
+
+.bg-dark {
+	--background: #000000 !important;
+	--text: #424242 !important;
+	--text-inverse: #FFFFFFF !important;
+
+	color: var(--text-inverse);
+}
+
+.phrase {
+	font-family: 'Titillium Web', sans-serif;
+	font-style: bold; 
+	font-weight: 900;
+	font-size: 500%;
+	color: #353535;
+	margin: 20vh auto 1vh;
+	padding-left: 5vh;
+	padding-top: 15vh;
+}
+
+
+.downArrow {
+	margin-top: 15vh;
+	padding: 2vh auto 2vh;
+	font-size: 80px;
+	color: #424242;
+	opacity: 0.3;
+}
+/*
+----------------------------------------
+             	SERVICES
+----------------------------------------
+*/
+
+#services {
+	max-height: 150vh;
+	min-height: 50vh;
+	margin: 2vh 3vh 2vh;
+	padding: 1vh 2vh 1vh;
+}
+
+#service-box {
+	height: 95%;
+	width: 100%;
+	background-color: #FFFFFF !important;
+	border-style: none;
+	/*border-width: 0.3vh;
+	border-color: #4F4F4F;*/
+	margin-top: 2vh;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5vh;
+	padding-bottom: 5vh;
+	padding-top: 5vh;
+	color: #626262;
+}
+
+.service-icon {
+    font-size: 100px;
+    height: 110px;
+    margin: 0 auto 60px;
+    padding-top: 20px;
+    text-align: center;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 120px;
+	color: #626262;
+}
+
+/*
+----------------------------------------
+             CALL TO ACTION
+----------------------------------------
+*/
+
+#call-to-action .container-fluid {
+	background: url(../img/call-to-action/call-to-action.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: cover; 
+	max-height: 70vh;
+	min-height: 50vh;
+	width: 100%;
+	margin-top: 3vh;
+	margin-right: 0 !important;
+}
+
+#call-to-action h4 {
+	padding-top: 0.5vh;
+	font-style: normal;
+	color: #D4D4D4;
+}
+
+#call-to-action h2 {
+	margin-top: 20vh;
+	font-style: normal;
+	color: #FFFFFF;
+}
+
+#call-to-action .btn {
+	padding: 1vh;
+	margin: 1vh auto 20vh;
+}
+
+/*
+----------------------------------------
+             	ABOUT US
+----------------------------------------
+*/
+
+#about-us .col {
+	max-height: 160vh; 
+	min-height: 70vh;
+	background: #DCDCDC;
+	padding: 2vh auto 2vh;
+}
+
+#about-us h1 {
+	margin: 2vh auto 2vh;
+}
+
+#about-us img {
+	padding-top: 4vh;
+}
+
+/*
+----------------------------------------
+             	CONTACT
+----------------------------------------
+*/
+#contact {
+	max-height: 220vh;
+	min-height: 50vh;
+}
+
+#contact .col {
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+}
+
+/*
+----------------------------------------
+             	FOOTER
+----------------------------------------
+*/
+#footer {
+	max-height: 10vh:;
+	min-height: 1s0vh;
+	color: #FFF;
+	font-family: 'Titillium Web', serif;
+	font-weight: 400;
+	font-size: 2%;
+	background-color: #424242;
+}

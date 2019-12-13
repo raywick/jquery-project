@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--=====META DATA=====-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <!--=====TITLE TAG=====-->
+    <title>jQuery-Landing</title>
+    <!--=====BOOTSTRAP=====-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--=====STYLESHEETS=====-->
+    <link rel="stylesheet" type="text/css" href="./public/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./public/css/slider.css">
+    <!--=====ICONS=====-->
+    <script src="https://kit.fontawesome.com/30e576030f.js" crossorigin="anonymous"></script>
+    <!--=====FONTS=====-->
+</head>
+
+<body>
+    <!--=====HEADER AREA=====-->
+    <header class="home" id="particles-js">
+        <!-----NAVBAR----->
+        <div class="mainmenu-area" id="mainmenu-area">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
+                <a class="navbar-brand" href="#particles-js">ExM</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active" id="home-link">
+                            <a class="nav-link" href="#particles-js">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item" id="services-link">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item" id="about-us-link">
+                            <a class="nav-link" href="#about-us" tabindex="-1" aria-disabled="true">About Us</a>
+                        </li>
+                        <li class="nav-item" id="contact-link">
+                            <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!----NAVBAR----->
+        <!----BANNER AREA----->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="container text-align-center">
+                    <h1 class="phrase text-center" id="phrase">Style and Speed</h1>
+                </div>
+                <div class="col-12 downArrow text-center" href="#services">
+                    <span id="down">
+                        <i class="fas fa-caret-down animate bounce infinite slow"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+    <!--=====/HEADER AREA=====-->
+    <!--=====SERVICE AREA=====-->
+    <section id="services">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="container text-center">
+                    <h2>Our Services</h2>
+                </div>
+                <div class="col-10 col-md-6 col-lg-4">
+                    <div class="container shadow-lg p-3 mb-5 rounded" id="service-box">
+                        <div class="service-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Project Development</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <div class="col-10 col-md-6 col-lg-4">
+                    <div class="container shadow-lg p-3 mb-5 rounded" id="service-box">
+                        <div class="service-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Quick Development</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <div class="col-10 col-md-6 col-lg-4">
+                    <div class="container shadow-lg p-3 mb-5 rounded" id="service-box">
+                        <div class="service-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h3>Exceptional Styles</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=====/SERVICE AREA=====-->
+    <!--=====CALL TO ACTION AREA=====-->
+    <section id="call-to-action">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div class="container text-center">
+                        <h2>Do you have doubts?</h2>
+                        <h4>Reach us inmediately!</h4>
+                        <a type="button" class="btn btn-outline-light btn-dark" href="#contact">Send us a message!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=====/CALL TO ACTION AREA=====-->
+    <!--=====ABOUT US AREA=====-->
+    <section id="about-us">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col col-sm-12 col-md-12 col-lg-6 align-items-center">
+                    <div class="container-fluid">
+                        <img src="img\about-us\about.jpg" class="img-fluid" alt="work-team">
+                    </div>
+                </div>
+                <div class="col align-items-center">
+                    <h1>MEET US</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=====/ABOUT US AREA=====-->
+    <!--=====CONTACT US AREA=====-->
+    <section id="contact">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col col-sm-12 col-md-12 col-lg-6 align-items-left">
+                    <div class="container">
+                        <div>
+                            <h1>Contact Us</h1>
+                            <h5>Cellphone:</h5>
+                            <p>+51 000000000</p>
+                            <h5>Email:</h5>
+                            <p>anonymous@arts.com</p>
+                            <h5>City:</h5>
+                            <p>Lima - Peru</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-12 col-md-12 col-lg-6 align-items-left">
+                    <div class="container">
+                        <form action="submit" method="POST" id="form" class="needs-validation">
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputName4">Name</label>
+                                    <input type="text" class="form-control" id="inputName" name="name" placeholder="Name">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputEmail4">Email</label>
+                                    <input type="email" class="form-control" id="inputEmail" name="email" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress">Address</label>
+                                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress2">Address 2</label>
+                                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputCity">City</label>
+                                    <input type="text" class="form-control" id="inputCity" name="city">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="inputState">State</label>
+                                    <select id="inputState" class="form-control">
+                                        <option selected>Choose...</option>
+                                        <option>Universe 1</option>
+                                        <option>Universe 2</option>
+                                        <option>Universe 3</option>
+                                        <option>Universe 4</option>
+                                        <option>Universe 5</option>
+                                        <option>Universe 6</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-2">
+                                    <label for="inputZip">Zip</label>
+                                    <input type="text" class="form-control" id="inputZip">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label" for="gridCheck">
+                                        Check me out
+                                    </label>
+                                </div>
+                            </div>
+                            <button id="submit" type="submit" class="btn btn-outline-light btn-dark">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=====/CONTACT US AREA=====-->
+    <!--=====PARTICLES=====-->
+    <script type="text/javascript" src="./public/JS/particles.js"></script>
+    <script type="text/javascript" src="./public/JS/app.js"></script>
+    <!--=====BOOTSTRAP=====-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!--=====jQuery=====-->
+    
+    <script type="text/javascript" src="./public/JS/navbar.js"></script>
+    <script type="text/javascript" src="./public/JS/validate.js"></script>
+    <script type="text/javascript" src="./public/JS/animate.js"></script>
+</body>
+<footer>
+    <div id="footer" class="container-fluid text-center">
+        <h3>Made by Rairt</h3>
+    </div>
+</footer>
+
+</html>
